@@ -65,3 +65,8 @@ docker build -t testimg:v1 .
 ```
 docker run -it --rm -d -p 80:80 testimg:v1  
 ```
+6. Go to inside container
+
+```
+docker container exec -it clever_mirzakhani bash 
+```
