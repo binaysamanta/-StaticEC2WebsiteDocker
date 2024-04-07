@@ -54,7 +54,7 @@ server {
 }
 ```  
 
-4. Build Docker Image   
+4. Build Docker Image (vi default.conf)  
 
 ```
 docker build -t testimg:v1 . 
