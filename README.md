@@ -43,7 +43,7 @@ EXPOSE 80
 CMD ["nginx", "-g", "daemon off;"]
 ```  
 
-nginx configuration file 
+nginx configuration file, vi default.conf
 
 ```
 server {
